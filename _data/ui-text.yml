@@ -1,0 +1,114 @@
+# User interface text and labels
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  skip_links                 : "Skip links"
+  skip_primary_nav           : "Skip to primary navigation"
+  skip_content               : "Skip to content"
+  skip_footer                : "Skip to footer"
+  page                       : "Page"
+  pagination_previous        : "Previous"
+  pagination_next            : "Next"
+  breadcrumb_home_label      : "Home"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Toggle menu"
+  search_label               : "Toggle search"
+  toc_label                  : "On this page"
+  ext_link_label             : "Direct link"
+  less_than                  : "less than"
+  minute_read                : "minute read"
+  share_on_label             : "Share on"
+  meta_label                 :
+  tags_label                 : "Tags:"
+  categories_label           : "Categories:"
+  date_label                 : "Updated:"
+  comments_label             : "Leave a comment"
+  comments_title             : "Comments"
+  more_label                 : "Learn more"
+  related_label              : "You may also enjoy"
+  follow_label               : "Follow:"
+  feed_label                 : "Feed"
+  powered_by                 : "Powered by"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "Recent posts"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "Your email address will not be published. Required fields are marked"
+  comment_form_comment_label : "Comment"
+  comment_form_md_info       : "Markdown is supported."
+  comment_form_name_label    : "Name"
+  comment_form_email_label   : "Email address"
+  comment_form_website_label : "Website (optional)"
+  comment_btn_submit         : "Submit comment"
+  comment_btn_submitted      : "Submitted"
+  comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
+  comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+  loading_label              : "Loading..."
+  search_label_text          : "Enter your search term..."
+  search_placeholder_text    : "Enter your search term..."
+  search_algolia_no_results  : "No results"
+  results_found              : "Result(s) found"
+  back_to_top                : "Back to top"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+
+# Persian (Farsi)
+# --------------
+fa: &DEFAULT_FA
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               : "برو به محتوا"
+  skip_footer                : "برو به انتها"
+  page                       : "صفحه"
+  pagination_previous        : "قبلی"
+  pagination_next            : "بعدی"
+  breadcrumb_home_label      : "صفحه اصلی"
+  breadcrumb_separator       : "/"
+  menu_label                 : "فهرست"
+  toc_label                  : "در این صفحه"
+  ext_link_label             : "لینک مستقیم"
+  less_than                  : "کمتر از"
+  minute_read                : "طول مطالعه:"
+  share_on_label             : "اشتراک‌گذاری در"
+  meta_label                 :
+  tags_label                 : "موضوعات: "
+  categories_label           : "دسته‌بندی ها: "
+  date_label                 : "آخرین بروزرسانی در: "
+  comments_label             : "ارسال نظر"
+  comments_title             : "نظرات"
+  more_label                 : "ادامه مطلب"
+  related_label              : "ممکنه از این مطالب هم خوشت بیاد"
+  follow_label               : "لینک‌ها: "
+  feed_label                 : "فید RSS"
+  powered_by                 : "از"
+  website_label              : "سایت"
+  email_label                : "پست الکترونیک"
+  recent_posts               : "آخرین مطالب"
+  undefined_wpm              : ".(words_per_minute) _config.yml متغیر اشتباه در"
+  comment_form_info          : ".آدرس ایمیل شما منتشر نخواهد شد. فیلدهای اجباری مشخص شده اند"
+  comment_form_comment_label : "دیدگاه"
+  comment_form_md_info       : ".پشتیبانی می‌شود Markdown"
+  comment_form_name_label    : "نام"
+  comment_form_email_label   : "پست الکترونیک"
+  comment_form_website_label : "سایت (اختیاری)"
+  comment_btn_submit         : "ارسال نظر"
+  comment_btn_submitted      : "ارسال شد"
+  comment_success_msg        : "سپاس! دیدگاهت بعد از بررسی منتشر میشه."
+  comment_error_msg          : "یه مشکلی پیش اومده. لطفاً مطمئن شو همه فیلد های اجباری پر شدن."
+  loading_label              : "درحال بارگذاری"
+  search_label_text          :
+  search_placeholder_text    : "دنبال چیز خاصی می‌گردی؟"
+  search_algolia_no_results  : "چیزی پیدا نشد."
+  results_found              : "نتایج"
+  back_to_top                : "برگرد به بالا"
+fa-IR:
+  <<: *DEFAULT_FA
+
