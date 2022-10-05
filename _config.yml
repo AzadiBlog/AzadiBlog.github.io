@@ -101,6 +101,13 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:Samuraimoon@proton.me"
+
 # Reading Files
 include:
   - .htaccess
